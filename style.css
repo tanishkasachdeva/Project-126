@@ -1,0 +1,36 @@
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 10px violet;}
+    to{box-shadow: 1px 1px 100px purple;}
+}
+
+.note
+{
+    font-size: 15px;
+    color: black;
+
+}
+
+body
+{
+    background-size: cover;
+}
+
+canvas 
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px violet;
+    margin-top: 20px;
+}
+
